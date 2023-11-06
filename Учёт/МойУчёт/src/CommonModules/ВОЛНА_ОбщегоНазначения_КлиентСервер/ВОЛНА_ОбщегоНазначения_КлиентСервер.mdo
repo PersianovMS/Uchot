@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51a2192f-6f92-4695-8a57-1d744b847601">
+  <name>ВОЛНА_ОбщегоНазначения_КлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВОЛНА общего назначения клиент сервер</value>
+  </synonym>
+  <comment>Процедуры и функции общего назначения, кроме интерфейсных - не зависят от режима запуска и конфигурации</comment>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+</mdclass:CommonModule>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d45462c9-b92d-4db3-be1b-53c5d1f5c76e">
+  <producedTypes>
+    <objectType typeId="70b51ab6-b403-4c6b-97f1-d3cda34e7719" valueTypeId="5d7e9080-3f6c-40bb-b626-aa8ab130a0e0"/>
+    <managerType typeId="010aff3d-f484-46ea-922d-a71ba9e968d4" valueTypeId="38a61df8-5db4-4c0f-ba42-b4a5796106f3"/>
+  </producedTypes>
+  <name>НаполнениеДней</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наполнение дней</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.НаполнениеДней.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="ee36f52f-2b49-4b76-802e-152922ae53a9">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

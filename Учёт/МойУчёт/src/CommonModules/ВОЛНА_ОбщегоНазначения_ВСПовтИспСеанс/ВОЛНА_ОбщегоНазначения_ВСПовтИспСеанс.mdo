@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91229aef-c134-4a81-83bb-f2072cd6eeaa">
+  <name>ВОЛНА_ОбщегоНазначения_ВСПовтИспСеанс</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВОЛНА общего назначения ВСПовт исп сеанс</value>
+  </synonym>
+  <comment>Процедуры и функции общего назначения, кроме интерфейсных - не зависят от режима запуска и конфигурации</comment>
+  <server>true</server>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <serverCall>true</serverCall>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

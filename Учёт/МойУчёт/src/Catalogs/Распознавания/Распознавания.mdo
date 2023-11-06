@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5aff60a-336e-4e19-8583-174e3cae33fe">
+  <producedTypes>
+    <objectType typeId="aaab1e79-c981-4f26-bc1a-d9bbe803b1bb" valueTypeId="f48447c3-5773-473f-9f65-ddc9636c8499"/>
+    <refType typeId="e1d106c2-32b0-4096-b59f-41c5d1ed18b6" valueTypeId="8ac7a7e6-c2ed-4e0f-b1ac-198946cc170c"/>
+    <selectionType typeId="50be8861-d418-4984-8593-9727c36f769e" valueTypeId="728f4a10-6fde-426d-901f-32ea8fec0de4"/>
+    <listType typeId="6fbea41b-18f7-4c3b-b884-4a46e40aff4d" valueTypeId="d44e94e1-0127-4219-86da-2e09aeae53fe"/>
+    <managerType typeId="272f6214-41a2-4194-ba1e-520a53ecbabd" valueTypeId="fb3343a4-5036-479f-8733-ba87b65d8060"/>
+  </producedTypes>
+  <name>Распознавания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Распознавания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Распознавания.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Распознавания.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <explanation>
+    <key>ru</key>
+    <value>Для преобразование строки в значения при загрузке</value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>7</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Распознавания.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="ac55a788-6e0b-418e-ba49-a7c7a227cf53">
+    <name>Кошелёк</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кошелёк</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Кошельки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c7ca1590-bb55-461a-927a-a884868629a6">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="40a91b94-d1ce-4c36-82cd-6f12a9ba3427">
+    <name>Статья</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиДДС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="903a6def-ee21-424e-9ff1-3a7cc6456e32">
+    <name>УсловиеПрименения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условие применения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="53b08649-a3f6-46cd-b634-2e8d0c797cfc">
+    <name>ПравилоРаспознавания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правило распознавания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выполняемый код с именами  КомментарийНеЗаполнен,КорКошелёкНеЗаполнен,СтатьяНеЗаполнена,параметрами из ТЧ, Приёмник и Распознавание</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cf9fb663-3c18-4b8c-9529-9591a0c626af">
+    <name>КорКошелёк</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кор кошелёк</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Кошельки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c44603ca-d097-4027-9147-3298e6c36cca">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="0cae796a-f8f7-4510-8aed-a723cc669214">
+    <producedTypes>
+      <objectType typeId="bbaccb92-97fb-4979-80ef-37a13f664364" valueTypeId="38821f03-1172-49ea-aae0-d67841a79cf8"/>
+      <rowType typeId="de1a1e0d-6a47-47be-bba8-2ebb58879d48" valueTypeId="b0f39c9b-7499-46dd-853d-fc6b4e494a50"/>
+    </producedTypes>
+    <name>Параметры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры</value>
+    </synonym>
+    <attributes uuid="1c74e78a-bc3b-4daf-b192-19778873b837">
+      <name>ИмяПараметра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя параметра</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>70</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d77f784d-ca14-4f31-950b-205117156c6f">
+      <name>ЗначениеПараметра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение параметра</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <types>DocumentRef</types>
+        <types>EnumRef</types>
+        <types>CatalogRef</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>7</scale>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>1000</length>
+        </stringQualifiers>
+        <dateQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Несколько параметров на одно имя будут массивом. В коде параметр используется по имени.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="a1d5c598-c95c-4f55-9153-709572c7665b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

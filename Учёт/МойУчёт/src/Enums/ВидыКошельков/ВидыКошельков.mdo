@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3278644-7967-4ced-b77c-ca006096e77a">
+  <producedTypes>
+    <refType typeId="78258ffa-eee5-4aa2-a3f9-0b92ea5ca65f" valueTypeId="82587f69-5dc5-45a4-93f6-26fa1a93d414"/>
+    <listType typeId="5f81795e-5130-4513-84ae-7b47c3b5a3ec" valueTypeId="9e975f33-da4a-4fb3-bd42-e09576299b23"/>
+    <managerType typeId="8171e8a7-844e-4ac4-89a4-ad7780634aa9" valueTypeId="4f712800-fbea-4a05-a4ce-491236efaea4"/>
+  </producedTypes>
+  <name>ВидыКошельков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды кошельков</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a5041a5c-6aed-435e-8660-822ed580596f">
+    <name>Наличный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наличный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3f244a00-9417-4745-b393-f527189422f0">
+    <name>ДебетоваяКарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дебетовая карта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e50e2855-c7f9-441a-8a53-8c1b76ed97ab">
+    <name>КредитнаяКарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кредитная карта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="38bce8b0-4ce3-4a49-adde-b775726e6589">
+    <name>НакопительныйСчёт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Накопительный счёт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7dfd76bf-7429-433d-9766-d5ace7912b17">
+    <name>Обязательство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обязательство (моё)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1d1665cc-b60d-473d-ba73-6a8c888796c2">
+    <name>Долг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Долг (мне)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="924d64af-4221-4f63-93ab-b2928ad5c2d1">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c49e0c56-7712-4d86-a1ac-a94c73fca5d0">
+    <name>Бонусы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бонусы</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

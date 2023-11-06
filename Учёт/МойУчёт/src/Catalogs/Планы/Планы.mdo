@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02ede356-b13c-45c6-a7f5-403dbb4c02fb">
+  <producedTypes>
+    <objectType typeId="3fe08b03-3b63-49d1-b854-01987f24a801" valueTypeId="1af33947-3e27-4cff-bca1-63da8842647c"/>
+    <refType typeId="b959011a-8916-4aad-8492-82200aa28621" valueTypeId="30942b44-0222-4525-90ff-86c9cb634118"/>
+    <selectionType typeId="655420f5-6c46-4ba6-8ef7-83a1af61dc71" valueTypeId="b8815e60-305f-4630-924b-c221f1a4cc5b"/>
+    <listType typeId="10f08e71-df89-4308-9ca6-badd6f242354" valueTypeId="31377a36-74af-474f-bc53-962f5682d774"/>
+    <managerType typeId="f61cb6c8-0f51-491c-9ad6-891849a6b3b2" valueTypeId="bebcf311-45c7-4dcf-bccb-f02f1ee16708"/>
+  </producedTypes>
+  <name>Планы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Планы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Планы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>70</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

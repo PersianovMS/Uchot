@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a66386f9-5930-49a2-8717-52562b7a2a81">
+  <producedTypes>
+    <refType typeId="3657765d-2860-4c20-8ddf-7b342cd46c84" valueTypeId="b20833c6-f12b-448d-bfc8-18a04bba8ce3"/>
+    <listType typeId="d1f0fd90-0ca5-41bf-8c5e-7a6ed0ea3134" valueTypeId="1709287d-bfe7-484c-8b27-6104718eb2fb"/>
+    <managerType typeId="8652eb36-215d-4428-a5d0-79b373d7263c" valueTypeId="8e6c6001-35e3-4dec-8502-cd41a1345fff"/>
+  </producedTypes>
+  <name>ВремяДеньгиПриходРасход</name>
+  <synonym>
+    <key>ru</key>
+    <value>Время деньги приход расход</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3b036d43-6406-4951-a686-8bf3e7f41390">
+    <name>Время</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1772f24a-91de-4745-ba13-81f78cbd21e6">
+    <name>Деньги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Деньги без разбивки на приход/расход</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="591a5906-251c-4913-9e58-dbcba2203397">
+    <name>Приход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приход</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="269f4ac4-087d-4bf2-8e25-385783898198">
+    <name>Расход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расход</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

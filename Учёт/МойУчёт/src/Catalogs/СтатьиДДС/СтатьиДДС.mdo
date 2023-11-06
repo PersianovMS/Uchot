@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4944e8d7-8cff-4856-949a-1ea8fa2356f2">
+  <producedTypes>
+    <objectType typeId="afc4d779-6e60-4748-9304-92fe254fbb15" valueTypeId="65c90341-7b00-4eb4-8d12-ee8f5519830a"/>
+    <refType typeId="c40c746b-4e3d-4dcb-9acd-d0a610dce7f3" valueTypeId="62156722-dc81-46a5-8f3b-6c9b59cf5233"/>
+    <selectionType typeId="0b58b772-59b4-483e-9c0c-3a9443c9a3d4" valueTypeId="311e175d-e263-423b-9327-aac64f366704"/>
+    <listType typeId="d523e745-a9b8-4edc-89ea-769240250f61" valueTypeId="0983aec0-647a-47e4-b88d-91db6d7af91d"/>
+    <managerType typeId="fa2a2827-2e46-47bb-9521-757b9f43dfb4" valueTypeId="51e38287-5370-4c46-a6e1-e7f0bfba3064"/>
+  </producedTypes>
+  <name>СтатьиДДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статьи ДДС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтатьиДДС.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтатьиДДС.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>4</codeLength>
+  <descriptionLength>70</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="d9321da8-262f-4ea1-bf58-6029130769d7">
+    <name>Архивный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архивный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d89996c4-5a0d-4f25-8b96-4d511e908d21">
+    <name>Время</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6484f844-a0cd-40b3-9bda-156df7ce3e1a">
+    <name>Деньги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Деньги</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f091afdc-82ea-49d6-95ef-cfc46fabe4ee">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d2e12d56-aca9-407f-b23e-08e333be9370">
+    <name>КонтрольНулевыхОборотов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контроль нулевых оборотов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

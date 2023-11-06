@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4a3619b-654c-4f04-9db7-ce96ae05ffaa">
+  <producedTypes>
+    <objectType typeId="54b7b0c0-85dc-4a3d-a122-f216ea048061" valueTypeId="ec5dd04e-1c10-411a-8b9c-abbadc38354f"/>
+    <refType typeId="c3263e84-e912-44ea-9aca-3b8d805ca5a5" valueTypeId="a02e4c8c-0bdd-496a-8ac2-c30db38f6d6b"/>
+    <selectionType typeId="ae088ccf-575b-4ebb-808b-c009474c1d68" valueTypeId="ea8f0a90-a31e-4a29-89a2-99e94b2b9d91"/>
+    <listType typeId="44c9f919-40f8-441e-8361-afe5f6a4a9e4" valueTypeId="731a1348-adae-4c97-bb4b-1aad30967a38"/>
+    <managerType typeId="8301f18c-1f81-4ea5-aba7-cfc77e0bd655" valueTypeId="e570cf96-3b48-4a96-a448-7042fb5a0be4"/>
+  </producedTypes>
+  <name>ПланВремениИлиДенег</name>
+  <synonym>
+    <key>ru</key>
+    <value>План времени или денег</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПланВремениИлиДенег.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.Плановый</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="75261268-2df4-4c4f-8832-f59790e44430">
+    <name>План</name>
+    <synonym>
+      <key>ru</key>
+      <value>План</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Планы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dc24c2df-7829-45fc-8c5a-3d5f59b25a31">
+    <name>Кошелёк</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кошелёк</value>
+    </synonym>
+    <comment>Необязательный, для отбора в ТЧ</comment>
+    <type>
+      <types>CatalogRef.Кошельки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="18bad0d7-e6ef-4950-b3b1-f890afce068a">
+    <name>ДатаС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата С</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2b68cadd-944a-433e-8601-c4fe79eb98c1">
+    <name>ДатаПо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата по</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="60e8dca5-cc25-4a0e-8c70-87c7719bc74b">
+    <name>ЭтоВремя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это время</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="7bd8cb40-43fc-450c-b39c-d81dc33c53b1">
+    <producedTypes>
+      <objectType typeId="134bce3b-58fd-41e1-ae0a-b28505a4b98f" valueTypeId="461d75bc-4730-4b8f-b7c7-ca4f4d6f7fe1"/>
+      <rowType typeId="c29cca79-a915-476f-8d19-569b8ee80603" valueTypeId="f03ce596-9c8c-4288-a85e-b7642cb83b13"/>
+    </producedTypes>
+    <name>Состав</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав</value>
+    </synonym>
+    <attributes uuid="cc73111d-a641-4366-9852-9c09e2cff74a">
+      <name>Кошелёк</name>
+      <synonym>
+        <key>ru</key>
+        <value>Кошелёк</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Кошельки</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="90b631d6-348e-4fce-a9d4-14de21b62e3f">
+      <name>Статья</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статья</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтатьиДДС</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="29fca5f3-fdc4-4e73-9ac8-4e8cfee570a3">
+      <name>Родитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Родитель</value>
+      </synonym>
+      <comment>Для исторического хранения дерева</comment>
+      <type>
+        <types>CatalogRef.СтатьиДДС</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2848b9a7-1b6c-4bfd-afce-de5792561097">
+      <name>СуммаПлана</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма плана</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>17</precision>
+          <scale>4</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f7ece63e-8f17-4c06-a2bf-28508fb2a27c">
+      <name>Комментарий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комментарий</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>500</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff3a5218-b61d-4408-a052-a4131826c384">
+  <producedTypes>
+    <objectType typeId="d483e612-dfc4-4eea-85aa-c4d68d5f7bb9" valueTypeId="0659703e-de08-4693-88ff-8d5e95702da0"/>
+    <refType typeId="f2f49cec-c0f2-4bb4-8830-258c845d1980" valueTypeId="ed43f65f-acc0-4644-a838-c006a7b63c60"/>
+    <selectionType typeId="8d6c18dd-2ffd-4e3d-b77c-992828c9656b" valueTypeId="8c0a7ac4-98df-47da-9108-19d3a23b84ab"/>
+    <listType typeId="a937e1b3-cbd9-44bb-b81c-ec6b5675b086" valueTypeId="180e19f0-22c0-4f7c-b07d-5d840c17ad69"/>
+    <managerType typeId="460b634f-16fe-4e1f-8afc-36e55d2320ff" valueTypeId="bbb1887f-6212-43d3-8c37-7bed09cacfe6"/>
+  </producedTypes>
+  <name>Кошельки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кошельки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Кошельки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Кошельки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>4</codeLength>
+  <descriptionLength>70</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="48fdac48-1302-4614-b342-0c07808bfc5e">
+    <name>Вид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыКошельков</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9326eca3-88c9-49c1-a1dd-01b7a327b6f1">
+    <name>Архивный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архивный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5f5a2950-c8f1-4aa2-8786-9c22d50c846e">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

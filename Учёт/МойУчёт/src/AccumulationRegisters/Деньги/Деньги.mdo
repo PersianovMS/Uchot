@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31d1818d-067a-43ba-886f-a26f23279638">
+  <producedTypes>
+    <selectionType typeId="c4436673-72b0-4aef-8921-48c4ccb9ba13" valueTypeId="186ef91a-158b-4722-936b-9ef08e9b478f"/>
+    <listType typeId="54360c63-550a-4508-8a3c-b338bdbd0c2f" valueTypeId="3365edf1-2454-4a11-98aa-e5a31cdcad3b"/>
+    <managerType typeId="b480525f-a6ed-4daa-b2d9-6be3b3d28e11" valueTypeId="c0e81755-7c79-4a61-b007-05a0c4182716"/>
+    <recordSetType typeId="6ecf8096-036b-4985-8961-dbc8213d5e0b" valueTypeId="ee7ce7e7-4ce4-4a5a-a160-02e2d2a9a96e"/>
+    <recordKeyType typeId="cce75f91-4ea3-4503-952c-2424c4620d2f" valueTypeId="ee757c7b-b809-4358-be79-e599bcaa2a7b"/>
+    <recordType typeId="601dacd6-b737-4d4f-8604-6de20a9f2681" valueTypeId="e3dd6799-d627-44f9-9977-c54b3daf6142"/>
+  </producedTypes>
+  <name>Деньги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Деньги</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="077efe3e-f7f2-46a1-ac99-deda8f38a4f8">
+    <name>Поступление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="0f80de18-64b0-4eb9-b116-dd1be779f253">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="c46ad28d-9b3a-4ccf-ac3c-77b28949ea54">
+    <name>ПорядокПоВыписке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок по выписке</value>
+    </synonym>
+    <comment>Для сортировки как в выписке банка</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <scale>1</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="b7c693f0-5ab6-4398-b002-dbcbe420feef">
+    <name>ПорядокПоУведомлению</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок по уведомлению</value>
+    </synonym>
+    <comment>Для сортировки как в уведомлениях</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <scale>1</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="d528b048-f4e5-4387-8f3c-56d81b50cb02">
+    <name>Кошелёк</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кошелёк</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Кошельки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="1184aaea-3fab-46a6-893b-023210879062">
+    <name>Статья</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиДДС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="5f918697-d1d5-48ba-be13-b5c84af2ab43">
+    <name>Приход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приход</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

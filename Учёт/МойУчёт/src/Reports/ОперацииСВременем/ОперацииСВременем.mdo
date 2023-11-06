@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f71b840-26e8-418e-aab1-111c489a7e77">
+  <producedTypes>
+    <objectType typeId="637065e3-867b-4a9f-8605-7f94929f4a2b" valueTypeId="bfd18c9a-2364-4af5-992c-d06ebed65ef1"/>
+    <managerType typeId="4d21e9af-03e3-42f7-af7d-b202bbde71aa" valueTypeId="eac54be0-6f3e-4d31-a3c4-b8df93fac2db"/>
+  </producedTypes>
+  <name>ОперацииСВременем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операции с временем</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОперацииСВременем.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="1a3febe8-55b6-467c-bd95-aca2ee102486">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="3771d197-d03b-4c7c-8428-e71786d86f71">
+    <name>Удалить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27bb40e4-46f9-4d7b-93ed-2f8549baf761">
+  <producedTypes>
+    <objectType typeId="81614554-8bd3-4429-ab99-d7c3899cbd9e" valueTypeId="b8b4e64d-791d-4971-b70d-59e451e13696"/>
+    <managerType typeId="72a2f7b5-0598-4235-a4d3-399fe9ebae54" valueTypeId="f6378f37-fc61-40e3-8ee9-7ca29af8ccb7"/>
+  </producedTypes>
+  <name>ОперацииСДеньгами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операции с деньгами</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОперацииСДеньгами.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <attributes uuid="743982c4-dfa3-4304-b5ab-410817f77f59">
+    <name>ВторойПроход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Второй проход</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="01d6cac8-7008-4187-87c7-841478a8e223">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

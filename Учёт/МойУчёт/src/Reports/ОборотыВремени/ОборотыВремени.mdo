@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6ba1063-56ac-41b6-abf5-891e177a9fc6">
+  <producedTypes>
+    <objectType typeId="beaf62c2-3d87-4331-94a4-f7cc7f4e9452" valueTypeId="c489ab6a-3210-4a22-8ed1-2537e84c78fd"/>
+    <managerType typeId="8ae8a7ee-01e1-4402-b141-710c29c228b4" valueTypeId="b13ff399-9d83-4fa9-af89-0691a727a556"/>
+  </producedTypes>
+  <name>ОборотыВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обороты времени</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОборотыВремени.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="d658f774-d607-4112-bb59-2a3ae4d2b294">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

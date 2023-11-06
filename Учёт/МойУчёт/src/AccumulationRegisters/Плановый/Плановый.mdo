@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92a1e3aa-426b-46f3-a7aa-2ac888da96d7">
+  <producedTypes>
+    <selectionType typeId="e21dfe10-778d-4406-a26d-87a86dd71355" valueTypeId="73775a13-fb09-4d41-9ee9-bf596ce76bd6"/>
+    <listType typeId="9991cfd5-a2d6-4c8c-816a-e5c901712c8f" valueTypeId="78d21a12-318a-4f23-aa50-23acf61b0b6c"/>
+    <managerType typeId="efb798d8-02ae-4cbe-b11c-e6df555ef42d" valueTypeId="04fc474c-24ec-4a98-ba97-81b4ce7f308b"/>
+    <recordSetType typeId="cb8b9aa0-a7e0-4866-970e-6da43cd8d0a0" valueTypeId="051e8a45-98e9-41a5-a99a-2538f18c8c3f"/>
+    <recordKeyType typeId="49d70b7a-1323-4631-8ee9-37b22e60ab30" valueTypeId="272bae50-b29d-4e8d-a998-d0c058a96445"/>
+    <recordType typeId="cd4edc97-6bfe-4332-b39b-01c083d553aa" valueTypeId="98393cb1-8030-4c89-b821-be0f354c8f90"/>
+  </producedTypes>
+  <name>Плановый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Плановый</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="8dd73780-8e6d-42e1-9d6e-e821731b5869">
+    <name>СуммаИлиЧасы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма или часы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="6cbb7ccf-1e9c-4a5d-976f-02f0f5124358">
+    <name>План</name>
+    <synonym>
+      <key>ru</key>
+      <value>План</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Планы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="6601261a-922c-476c-982d-1070dc15f661">
+    <name>Кошелёк</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кошелёк</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Кошельки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="f6e99287-f425-4478-81d4-cdc8cb65165e">
+    <name>ВремяДеньгиПриходРасход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время деньги приход расход</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВремяДеньгиПриходРасход</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="80b952fa-36a5-4482-af44-054f8607652b">
+    <name>Статья</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиДДС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

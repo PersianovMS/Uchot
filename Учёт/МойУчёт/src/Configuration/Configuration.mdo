@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b3a015f-99ed-4fff-9389-c49707ec5dde">
+  <name>МОЙ_УЧЁТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>МОЙ УЧЁТ</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="33d49c64-12c8-402a-952e-bd29de135d41"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="10f686c3-008d-4a4a-97fb-c6fa407e2985"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="f5e0919b-f5c9-4801-b2b8-cdad21d7c4e3"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="a389ef0f-7285-4937-96c1-3cd4fd809ce4"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="5f94f30b-3cb3-47a1-af42-70dbb9763c70"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="631fef1f-42d7-4d07-b164-2edc4bf4a81d"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="ca1b4090-8f88-4a5c-99a9-a296209317c7"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.18</compatibilityMode>
+  <languages uuid="3277ab47-85a1-44bd-b4c3-7af8103dcdfe">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.УЧЁТ</subsystems>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.ВОЛНА_ВыполнениеПроизвольногоКодаПриВызовеСервера</roles>
+  <roles>Role.БезПрав</roles>
+  <commonModules>CommonModule.КомпоновкаДанныхСервер</commonModules>
+  <commonModules>CommonModule.ВОЛНА_ОбщегоНазначения_ВСПовтИспСеанс</commonModules>
+  <commonModules>CommonModule.ВОЛНА_ОбщегоНазначения_КлиентСервер</commonModules>
+  <commonModules>CommonModule.ВОЛНА_ОбщегоНазначенияВС</commonModules>
+  <commonModules>CommonModule.ВОЛНА_ОбщегоНазначенияКлиент</commonModules>
+  <commonModules>CommonModule.РаспознавашкиКлиентСервер</commonModules>
+  <constants>Constant.СтатьяНевыясненных</constants>
+  <catalogs>Catalog.Кошельки</catalogs>
+  <catalogs>Catalog.СтатьиДДС</catalogs>
+  <catalogs>Catalog.Распознавания</catalogs>
+  <catalogs>Catalog.Планы</catalogs>
+  <documents>Document.ВводДенег</documents>
+  <documents>Document.ВводВремени</documents>
+  <documents>Document.ПланВремениИлиДенег</documents>
+  <enums>Enum.ВидыКошельков</enums>
+  <enums>Enum.ВремяДеньгиПриходРасход</enums>
+  <reports>Report.НаполнениеДней</reports>
+  <reports>Report.ОборотыВремени</reports>
+  <reports>Report.ОборотыДенег</reports>
+  <reports>Report.ОстаткиДенег</reports>
+  <reports>Report.ОперацииСВременем</reports>
+  <reports>Report.ОперацииСДеньгами</reports>
+  <accumulationRegisters>AccumulationRegister.Деньги</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Время</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Плановый</accumulationRegisters>
+</mdclass:Configuration>

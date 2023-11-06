@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="daab9b91-be25-4d4e-9a75-5411ed638117">
+  <producedTypes>
+    <managerType typeId="83e971cc-d3ed-4939-93d1-43f65f2ecbaf" valueTypeId="5bb43530-9470-4149-b755-cc28a51b3bbd"/>
+    <valueManagerType typeId="75149de3-fd6b-4cb3-b30e-0793c852599a" valueTypeId="be683937-38c7-46c1-bd2f-8d889799d747"/>
+    <valueKeyType typeId="c0ddbefd-8d66-42e7-8899-0d83998767ab" valueTypeId="0f4a3ba5-753f-4518-8159-feb4cebca7b7"/>
+  </producedTypes>
+  <name>СтатьяНевыясненных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статья невыясненных</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.СтатьиДДС</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

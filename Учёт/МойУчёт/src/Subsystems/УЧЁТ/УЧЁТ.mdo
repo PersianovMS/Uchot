@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e7f2a90-9312-48a6-bc04-38f4e58a1030">
+  <name>УЧЁТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>УЧЁТ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Кошельки</content>
+  <content>Catalog.СтатьиДДС</content>
+  <content>Catalog.Распознавания</content>
+  <content>Constant.СтатьяНевыясненных</content>
+  <content>Document.ВводДенег</content>
+  <content>Document.ВводВремени</content>
+  <content>Report.ОборотыДенег</content>
+  <content>AccumulationRegister.Деньги</content>
+  <content>AccumulationRegister.Время</content>
+  <content>Report.ОстаткиДенег</content>
+  <content>Report.ОперацииСДеньгами</content>
+  <content>Document.ПланВремениИлиДенег</content>
+  <content>AccumulationRegister.Плановый</content>
+  <content>Enum.ВремяДеньгиПриходРасход</content>
+  <content>Enum.ВидыКошельков</content>
+  <content>Catalog.Планы</content>
+  <content>Report.НаполнениеДней</content>
+  <content>Report.ОборотыВремени</content>
+  <content>Report.ОперацииСВременем</content>
+</mdclass:Subsystem>
